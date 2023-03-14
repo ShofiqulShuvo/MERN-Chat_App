@@ -2,10 +2,16 @@
 
 ## installation
 
+<p> open two terminal in your root directory</p>
+
+##### First Terminal
+
 ```
     cd frontend
     npm install
 ```
+
+##### Second Terminal
 
 ```
     cd backend
@@ -14,9 +20,13 @@
 
 ## Commands for run the app
 
+##### First Terminal
+
 ```
-    npx json-server --watch src/data/db.json --port 8000
+    npm start
 ```
+
+##### Second Terminal
 
 ```
     npm start
@@ -24,13 +34,28 @@
 
 ## Used tools and technology
 
+#### frontend
+
 - React
 - Redux
 - Redux-toolkit
 - React-router-dom v6
-- React-paginate
-- Json-server
+- react-scrollable-feed
+- socket.io-client
 - React-toastify
-- Swiper
 - Bootstrap
 - React-icons
+
+#### backend
+
+- express
+- mongoose
+- socket.io
+- cors
+- dotenv
+- bcrypt
+- jsonwebtoken
+- multer
+- nodemon
+- http-errors
+- uuid
